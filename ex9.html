@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS3-Animations</title>
+<style type="text/css">
+body{
+	background-color:#EBA6A8;
+	font-family: Arial;
+}
+
+
+#s1{
+	width:500px;
+	height:50px;
+	background-color:#336;
+	color:#ffff66;
+	font-size:26px;
+	margin:10px;
+	text-align:center;
+	line-height: 50px;
+	border-radius: 5px;
+}
+#s2{
+	width:500px;
+	height:50px;
+	background-color:purple;
+	color:orange;
+	font-size:26px;
+	margin:10px;
+	text-align:center;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-left: 65%;
+}
+#s3{
+	text-align: center;
+	font-family: Arial;
+	font-size: 50px;
+	letter-spacing: 1px;
+	color: red;
+	text-shadow: 2px 2px 2px brown;
+	margin: 50px auto;
+	animation: s3Ani ;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+@keyframes s3Ani {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+</style>
+</head>
+
+<body>
+<div id="s1">==CSS ANIMATION==</div>
+<div id="s2">==CSS ANIMATION==</div>
+<div id="s3">==SHOW TIME==</div>
+</body>
+</html>
